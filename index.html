@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#E31837">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="RDN Truck - Mecânica especializada em caminhões. Manutenção preventiva, reparo de motor, elétrica e freios. Orçamento gratuito!">
+    <meta name="keywords" content="mecânica caminhão, manutenção caminhão, reparo motor diesel, freios caminhão, elétrica caminhão, RDN Truck">
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚛</text></svg>">
+    <title>RDN Truck - Mecânica de Caminhões</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-truck"></i>
+                <span>RDN Truck</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#precos">Preços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <a href="https://wa.me/5511962450886" target="_blank" class="whatsapp-float">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Reparação Especializada em Caminhões</h1>
+                <p>Serviços mecânicos completos para sua frota com qualidade e eficiência</p>
+                <button class="cta-button">Solicitar Orçamento</button>
+            </div>
+            <div class="hero-image">
+                <i class="fas fa-truck-monster"></i>
+            </div>
+        </section>
+
+        <section id="servicos" class="servicos">
+            <div class="container">
+                <h2>Nossos Serviços</h2>
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="preventiva">Manutenção Preventiva</button>
+                    <button class="tab-btn" data-tab="motor">Reparo de Motor</button>
+                    <button class="tab-btn" data-tab="eletrica">Elétrica</button>
+                    <button class="tab-btn" data-tab="freios">Freios e Suspensão</button>
+                    <button class="tab-btn" data-tab="precos">Tabela de Preços</button>
+                </div>
+
+                <div class="tab-content active" id="preventiva">
+                    <div class="servico-detalhes">
+                        <div class="servico-icon">
+                            <i class="fas fa-truck-pickup"></i>
+                        </div>
+                        <h3>Manutenção Preventiva</h3>
+                        <p class="descricao">A manutenção preventiva é realizada em intervalos regulares, planejada e visa prevenir falhas antes que elas ocorram. É três vezes mais barata que reparos corretivos.</p>
+                        
+                        <div class="beneficios">
+                            <h4>Por que fazer?</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Evita falhas inesperadas na estrada</li>
+                                <li><i class="fas fa-check"></i> Aumenta a vida útil do veículo</li>
+                                <li><i class="fas fa-check"></i> Reduz custos a longo prazo (até 3x mais barato)</li>
+                                <li><i class="fas fa-check"></i> Melhora o consumo de combustível</li>
+                                <li><i class="fas fa-check"></i> Garante segurança na estrada</li>
+                                <li><i class="fas fa-check"></i> Evita paradas não programadas</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="itens-servico">
+                            <h4>O que inclui:</h4>
+                            <ul>
+                                <li>Troca de óleo e filtros</li>
+                                <li>Verificação de freios</li>
+                                <li>Inspeção de pneumaticos</li>
+                                <li>Verificação de fluidos</li>
+                                <li>Inspeção geral de sistemas</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="preco">
+                            <span class="label-preco">A partir de</span>
+                            <span class="valor">R$ 800</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="motor">
+                    <div class="servico-detalhes">
+                        <div class="servico-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Reparo de Motor</h3>
+                        <p class="descricao">Reparo completo de motores diesel, incluindo turbo, injeção e retífica. Restauramos a potência original do seu motor.</p>
+                        
+                        <div class="beneficios">
+                            <h4>Por que fazer?</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Restaura potência do motor</li>
+                                <li><i class="fas fa-check"></i> Melhora desempenho e torque</li>
+                                <li><i class="fas fa-check"></i> Reduz consumo de diesel</li>
+                                <li><i class="fas fa-check"></i> Evita falhas completas do motor</li>
+                                <li><i class="fas fa-check"></i> Aumenta vida útil do veículo</li>
+                                <li><i class="fas fa-check"></i> Evita inúmeroso reparos emergenciais</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="itens-servico">
+                            <h4>O que inclui:</h4>
+                            <ul>
+                                <li>Reparo de turbo</li>
+                                <li>Retífica de motor</li>
+                                <li>Troca de velas e filtros</li>
+                                <li>Ajuste de injeção</li>
+                                <li>Limpeza de bicos injetores</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="preco">
+                            <span class="label-preco">A partir de</span>
+                            <span class="valor">R$ 5.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="eletrica">
+                    <div class="servico-detalhes">
+                        <div class="servico-icon">
+                            <i class="fas fa-car-battery"></i>
+                        </div>
+                        <h3>Elétrica</h3>
+                        <p class="descricao">Soluções completas em sistemas elétricos, partida, iluminação e eletrônica do veículo.</p>
+                        
+                        <div class="beneficios">
+                            <h4>Por que fazer?</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Evita falhas no sistema de partida</li>
+                                <li><i class="fas fa-check"></i> Garante iluminação adequada</li>
+                                <li><i class="fas fa-check"></i> Previne problemas na elektronica</li>
+                                <li><i class="fas fa-check"></i> Evita descarga da bateria</li>
+                                <li><i class="fas fa-check"></i> Melhora eficiência do alternador</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="itens-servico">
+                            <h4>O que inclui:</h4>
+                            <ul>
+                                <li>Troca de bateria</li>
+                                <li>Reparo de alternador</li>
+                                <li>Verificação de fiação</li>
+                                <li>Teste de sistema eletrônico</li>
+                                <li>Iluminação e lanternas</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="preco">
+                            <span class="label-preco">A partir de</span>
+                            <span class="valor">R$ 350</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="freios">
+                    <div class="servico-detalhes">
+                        <div class="servico-icon">
+                            <i class="fas fa-oil-can"></i>
+                        </div>
+                        <h3>Freios e Suspensão</h3>
+                        <p class="descricao">Manutenção completa do sistema de freios e suspensão para garantir segurança e estabilidade.</p>
+                        
+                        <div class="beneficios">
+                            <h4>Por que fazer?</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Segurança em frenagens de emergência</li>
+                                <li><i class="fas fa-check"></i> Evita acidentes nas estradas</li>
+                                <li><i class="fas fa-check"></i> Estabilidade nas curvas</li>
+                                <li><i class="fas fa-check"></i> Reduz distancia de frenagem</li>
+                                <li><i class="fas fa-check"></i> Proteção da carga</li>
+                                <li><i class="fas fa-check"></i> Conforto na condução</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="itens-servico">
+                            <h4>O que inclui:</h4>
+                            <ul>
+                                <li>Troca de pastilhas</li>
+                                <li>Troca de lonas de freio</li>
+                                <li>Reparo de suspensão</li>
+                                <li>Alinhamento</li>
+                                <li>Balanceamento</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="preco">
+                            <span class="label-preco">A partir de</span>
+                            <span class="valor">R$ 1.200</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="precos">
+                    <div class="tabela-precos">
+                        <h3>Tabela de Preços 2024</h3>
+                        <p class="obs-tabela">*Valores sujeitos a alteração conforme modelo do caminhão</p>
+                        
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Serviço</th>
+                                    <th>Descrição</th>
+                                    <th>Valor</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Revisão Completa</td>
+                                    <td>Inspeção geral + troca de óleo e filtros</td>
+                                    <td>R$ 800 - R$ 1.500</td>
+                                </tr>
+                                <tr>
+                                    <td>Troca de Óleo</td>
+                                    <td>Óleo + filtro (todos os tipos)</td>
+                                    <td>R$ 500 - R$ 1.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Freios</td>
+                                    <td>Pastilhas + lonas + regulagem</td>
+                                    <td>R$ 1.200 - R$ 4.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Embreagem</td>
+                                    <td>Kit embreagem completo</td>
+                                    <td>R$ 3.500 - R$ 8.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Turbo</td>
+                                    <td>Reparo ou troca</td>
+                                    <td>R$ 2.500 - R$ 6.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Motor</td>
+                                    <td>Retífica completa</td>
+                                    <td>R$ 8.000 - R$ 25.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Elétrica</td>
+                                    <td>Bateria + alternador</td>
+                                    <td>R$ 800 - R$ 2.500</td>
+                                </tr>
+                                <tr>
+                                    <td>Suspensão</td>
+                                    <td>Reparo completo</td>
+                                    <td>R$ 2.000 - R$ 8.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Alinhamento</td>
+                                    <td>4 rodas</td>
+                                    <td>R$ 200 - R$ 400</td>
+                                </tr>
+                                <tr>
+                                    <td>Pneus</td>
+                                    <td>Troca (por unidade)</td>
+                                    <td>R$ 1.800 - R$ 3.500</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <div class="sobre-content">
+                    <div class="sobre-texto">
+                        <h2>Sobre a RDN Truck</h2>
+                        <p>Há mais de 20 anos no mercado, a RDN Truck Mecânica de Caminhões é referência em reparos especializados para a sua frota. Nossa equipe técnica altamente qualificada utiliza equipamentos de ponta para garantir a máxima performance do seu veículo.</p>
+                        <p>Trabalhamos com todas as marcas e modelos de caminhões, oferecendo soluções rápidas e eficazes para minimizar o tempo de parada da sua frota.</p>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <span class="number">5000+</span>
+                                <span class="label">Caminhões Atendidos</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="number">20+</span>
+                                <span class="label">Anos de Experiência</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="number">24/7</span>
+                                <span class="label">Suporte Emergencial</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sobre-imagem">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <div class="contato-content">
+                    <div class="contato-info">
+                        <div class="contato-item">
+                            <a href="https://wa.me/5511962450886" target="_blank" class="whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>(11) 96245-0886</p>
+                            </div>
+                        </div>
+                        <div class="contato-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>(11) 96245-0886</p>
+                            </div>
+                        </div>
+                        <div class="contato-item">
+                            <i class="fas fa-globe"></i>
+                            <div>
+                                <h4>Website</h4>
+                                <p><a href="https://www.rdntruck.com.br" target="_blank" style="color: inherit; text-decoration: none;">www.rdntruck.com.br</a></p>
+                            </div>
+                        </div>
+                        <div class="contato-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contato@rdntruck.com.br</p>
+                            </div>
+                        </div>
+                        <div class="contato-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Endereço</h4>
+                                <p>Rua das Oficinas, 123 - São Paulo, SP</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contato-form">
+                        <input type="text" name="nome" placeholder="Seu Nome" required>
+                        <input type="email" name="email" placeholder="Seu Email" required>
+                        <input type="tel" name="telefone" placeholder="Seu Telefone" required>
+                        <textarea name="mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
+                        <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-truck"></i>
+<span>RDN Truck</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#servicos">Serviços</a>
+                    <a href="#precos">Preços</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#contato">Contato</a>
+                </div>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 RDN Truck. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
